@@ -6,3 +6,42 @@ Světlá barva pozadí: #f2b880
 Tmavší barvy pozadí za obrázkem: #e88121
 Barva text v oranžovém pozadí: #752400
 */
+.container{
+
+}
+.headline-1{
+  position: static;
+  justify-content: center;
+  display: flex;
+}
+.hero-section{
+  background-color:#f2b880;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  border: solid 10px #e88121;
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+.header{
+  display: flex;
+  position: center;
+  align-items: center;
+  justify-content: center;
+  gap: 1354px;
+}
+.navbar{
+  display: flex;
+  gap: 5px;
+  position: sticky;
+}
+.top-link-wrapper{
+  position: fixed;
+  left: 95%;
+  top: 90%;
+}
+.sipka{
+  height: 55%;
+  width: 55%;
+}
